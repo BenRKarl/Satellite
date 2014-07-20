@@ -1,5 +1,7 @@
 ###Satellite
 
+http://thesatellite.org/
+
 Sites to consider in terms of design:
 
     - https://www.mapbox.com/
