@@ -45,3 +45,11 @@ heading h3 {
 heading a {
   color: #4B78D0;
 }
+
+heading h5 {
+  font-size: 11px;
+  color: #999;
+  letter-spacing: 2px;
+}
+
+/*got everything filled out down to the facebook/twitter/pinterest buttons*/
