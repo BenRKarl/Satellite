@@ -1,0 +1,47 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+navBar {
+  width: 1000px;
+}
+
+navBar h5 {
+  font-size: 13px;
+  color: #999;
+  line-height: 30px;
+}
+/*add space between links to 20px*/
+
+navBar logo{
+  width: 230px;
+}
+
+navBar button {
+  size: 1px;
+  color: #999;
+  border-radius: 3px;
+}
+
+heading {
+
+}
+
+heading img {
+  /*max-width: 500px;*/
+  height: 500px;
+}
+
+heading h1 {
+  font-size: 33px;
+  color: #fff;
+}
+
+heading h3 {
+  font-size: 17px;
+  color: #333;
+}
+
+heading a {
+  color: #4B78D0;
+}
