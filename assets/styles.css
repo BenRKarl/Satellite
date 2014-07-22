@@ -54,6 +54,10 @@ h5 {
   border-radius: 3px;
 }
 
+.navBar #newsletterForm {
+  display: inline;
+}
+
 .heading {
 
 }
