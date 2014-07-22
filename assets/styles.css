@@ -2,54 +2,68 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-navBar {
+h1 {
+  font-size: 33px;
+  color: #333;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+h5 {
+  font-size: 11px;
+}
+
+#navBar {
   width: 1000px;
 }
 
-navBar h5 {
+#navBar h5 {
   font-size: 13px;
   color: #999;
   line-height: 30px;
 }
 /*add space between links to 20px*/
 
-navBar logo{
+#navBar logo{
   width: 230px;
 }
 
-navBar button {
+#navBar button {
   size: 1px;
   color: #999;
   border-radius: 3px;
 }
 
-heading {
+#heading {
 
 }
 
-heading img {
+#heading img {
   /*max-width: 500px;*/
   height: 500px;
 }
 
-heading h1 {
-  font-size: 33px;
+#heading h1 {
   color: #fff;
 }
 
-heading h3 {
-  font-size: 17px;
+#heading h3 {
   color: #333;
 }
 
-heading a {
+#heading a {
   color: #4B78D0;
 }
 
-heading h5 {
-  font-size: 11px;
+#heading h5 {
   color: #999;
   letter-spacing: 2px;
 }
 
 /*got everything filled out down to the facebook/twitter/pinterest buttons*/
+
+#media h3 {
+  color: #999;
+}
