@@ -26,26 +26,22 @@ h5 {
 }
 
 .navBar {
-  width: 100%;
-  margin: 20px 0 15px 0;
+  margin: 20px 30px 15px 30px;
 }
 
-.navBar h5 {
-  font-size: 13px;
-  line-height: 30px;
-}
-/*add space between links to 20px*/
-
-.navBar #logo {
-  letter-spacing: 3px;
+.navBar h1 {
+  margin: 0;
   display: inline;
-  width: 230px;
+  letter-spacing: 3px;
+  left: 10px;
 }
 
 .navBar ul {
   margin: 0;
   padding: 0;
+  display: inline;
   list-style-type: none;
+  word-spacing: 10px;
 }
 
 .navBar ul li {
@@ -60,6 +56,9 @@ h5 {
 .navBar #newsletterForm {
   display: inline;
 }
+
+
+
 
 .heading {
   display: inline-block;
@@ -93,7 +92,7 @@ h5 {
 
 .news h2 {
 }
-
+/*
 @media (max-width: 1000px) {
 
   body {
@@ -103,4 +102,4 @@ h5 {
 }
 @media (max-width: 500px) {
   body { font-size: 1.1; }
-}
+}*/
