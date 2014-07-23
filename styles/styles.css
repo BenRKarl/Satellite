@@ -26,7 +26,7 @@ h5 {
 }
 
 .navBar {
-  height: 50px;
+  height: 65px;
 }
 
 .navBar h1 {
@@ -36,14 +36,15 @@ h5 {
 .main-logo {
   display: inline-block;
   letter-spacing: 0.5em;
-  left: 1em;
+  top: 1em;
+  left: 4em;
   position: absolute;
 }
 
 .nav-menu {
   display: inline-block;
-  top: 1em;
-  right: 1em;
+  top: 2em;
+  right: 4em;
   position: absolute;
 }
 
@@ -51,7 +52,7 @@ h5 {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  word-spacing: 10px;
+  word-spacing: 20px;
 }
 
 .navBar ul li {
@@ -60,9 +61,9 @@ h5 {
 
 .navBar .join-button {
   border: 1px solid #999;
-  border-radius: 20%;
+  border-radius: 10%;
   word-spacing: 1px;
-  padding: 0.25em 0.5em;
+  padding: 7px 20px;
 }
 
 .navBar #newsletterForm {
