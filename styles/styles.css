@@ -25,7 +25,26 @@ h5 {
   font-size: 11px;
 }
 
+.content-container {
+  padding: 80px 200px;
+}
 
+.content-container h1 {
+  font-size: 33px;
+  color: #333;
+  margin: 0 0 20px 0;
+}
+
+.content-container h5 {
+  font-size: 11px;
+  color: #999;
+  margin: 0 0 40px 0;
+
+}
+
+hr {
+  width: 75%;
+}
 
 .heading a {
   color: #4B78D0;
@@ -33,11 +52,6 @@ h5 {
 
 .heading h5 {
   letter-spacing: 2px;
-}
-
-
-
-.news h2 {
 }
 
 #newsletterForm {
