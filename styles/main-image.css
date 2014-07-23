@@ -1,0 +1,17 @@
+.main-image {
+  display: inline-block;
+}
+
+.main-image img {
+  width: 100%;
+  height: 500px;
+}
+
+.main-image h1 {
+  letter-spacing: 3px;
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  color: #fff;
+  font-size: 33px;
+}
