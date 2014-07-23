@@ -1,0 +1,18 @@
+.news-container {
+  padding: 65px 50px;
+  display: inline-block;
+}
+
+.news-item {
+  width: 300px;
+  display: inline-block;
+  margin: 0 25px;
+}
+
+.news-item h2 {
+  margin-bottom: 25px;
+}
+
+.news-item img {
+  width: 300px;
+}
