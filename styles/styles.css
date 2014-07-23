@@ -25,23 +25,25 @@ h5 {
   font-size: 11px;
 }
 
-.heading {
+
+.main-image {
   display: inline-block;
 }
 
-.heading img {
+.main-image img {
   width: 100%;
   height: 500px;
 }
 
-.heading h1 {
+.main-image h1 {
   letter-spacing: 3px;
   position: absolute;
-  top: 48%;
-  left: 0;
+  top: 250px;
   width: 100%;
   color: #fff;
 }
+
+
 
 .heading h2 {
   color: #333;
@@ -54,6 +56,9 @@ h5 {
 .heading h5 {
   letter-spacing: 2px;
 }
+
+
+
 
 .news h2 {
 }
