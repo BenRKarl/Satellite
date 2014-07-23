@@ -50,7 +50,6 @@ h5 {
 .navBar ul {
   margin: 0;
   padding: 0;
-  display: inline;
   list-style-type: none;
   word-spacing: 10px;
 }
@@ -59,9 +58,11 @@ h5 {
   display: inline;
 }
 
-.navBar button {
-  size: 1px;
-  border-radius: 3px;
+.navBar .join-button {
+  border: 1px solid #999;
+  border-radius: 20%;
+  word-spacing: 1px;
+  padding: 0.25em 0.5em;
 }
 
 .navBar #newsletterForm {
