@@ -35,11 +35,26 @@ h5 {
   margin: 0 0 20px 0;
 }
 
+.content-container h3 {
+  font-size: 15px;
+  color: #999;
+  margin: 0 0 50px 0;
+}
+
 .content-container h5 {
   font-size: 11px;
   color: #999;
   margin: 0 0 40px 0;
+}
 
+.content-container .img-container {
+  display: inline-block;
+  width: 550px;
+}
+
+.img-container img {
+  height: 175px;
+  width: 175px;
 }
 
 hr {
