@@ -26,14 +26,25 @@ h5 {
 }
 
 .navBar {
-  margin: 20px 30px 15px 30px;
+  height: 50px;
 }
 
 .navBar h1 {
   margin: 0;
-  display: inline;
-  letter-spacing: 3px;
-  left: 10px;
+}
+
+.main-logo {
+  display: inline-block;
+  letter-spacing: 0.5em;
+  left: 1em;
+  position: absolute;
+}
+
+.nav-menu {
+  display: inline-block;
+  top: 1em;
+  right: 1em;
+  position: absolute;
 }
 
 .navBar ul {
