@@ -25,54 +25,6 @@ h5 {
   font-size: 11px;
 }
 
-.navBar {
-  height: 65px;
-}
-
-.navBar h1 {
-  margin: 0;
-}
-
-.main-logo {
-  display: inline-block;
-  letter-spacing: 0.5em;
-  top: 1em;
-  left: 4em;
-  position: absolute;
-}
-
-.nav-menu {
-  display: inline-block;
-  top: 2em;
-  right: 4em;
-  position: absolute;
-}
-
-.navBar ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  word-spacing: 20px;
-}
-
-.navBar ul li {
-  display: inline;
-}
-
-.navBar .join-button {
-  border: 1px solid #999;
-  border-radius: 10%;
-  word-spacing: 1px;
-  padding: 7px 20px;
-}
-
-.navBar #newsletterForm {
-  display: inline;
-}
-
-
-
-
 .heading {
   display: inline-block;
 }
@@ -105,6 +57,11 @@ h5 {
 
 .news h2 {
 }
+
+#newsletterForm {
+  display: inline;
+}
+
 /*
 @media (max-width: 1000px) {
 

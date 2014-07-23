@@ -1,0 +1,40 @@
+.nav-bar {
+  height: 65px;
+}
+
+.nav-bar h1 {
+  margin: 0;
+}
+
+.main-logo {
+  display: inline-block;
+  letter-spacing: 0.5em;
+  top: 1em;
+  left: 4em;
+  position: absolute;
+}
+
+.nav-menu {
+  display: inline-block;
+  top: 2em;
+  right: 4em;
+  position: absolute;
+}
+
+.nav-bar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  word-spacing: 20px;
+}
+
+.nav-bar ul li {
+  display: inline;
+}
+
+.join-button {
+  border: 1px solid #999;
+  border-radius: 10%;
+  word-spacing: 1px;
+  padding: 7px 20px;
+}
