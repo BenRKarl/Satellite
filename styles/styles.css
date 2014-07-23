@@ -4,6 +4,10 @@ body {
   text-align: center;
 }
 
+hr {
+  width: 75%;
+}
+
 h1 {
   font-size: 33px;
   color: #333;
@@ -25,10 +29,24 @@ h5 {
   font-size: 11px;
 }
 
+.nav-footer {
+  background-color: #fafafa;
+  padding: 40px 50px 65px 50px;
+}
 
+.nav-menu-footer {
+  display: inline-block;
+}
 
-hr {
-  width: 75%;
+.nav-menu-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-menu-footer ul li {
+  display: inline;
+  margin: 0 10px;
 }
 
 .heading a {

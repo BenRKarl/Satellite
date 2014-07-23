@@ -21,15 +21,15 @@
   position: absolute;
 }
 
-.nav-bar ul {
+.nav-menu ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  word-spacing: 20px;
 }
 
-.nav-bar ul li {
+.nav-menu ul li {
   display: inline;
+  margin: 0 15px;
 }
 
 .join-button {
