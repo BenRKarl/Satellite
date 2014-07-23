@@ -35,30 +35,7 @@ h5 {
   letter-spacing: 2px;
 }
 
-.main-image-caption {
-  background-color: #fafafa;
-  display: inline-block;
-}
 
-.main-image-caption h2 {
-  color: #333;
-  margin: 65px 200px 30px 200px;
-  font-size: 17px;
-}
-
-.main-image-caption h3 {
-  color: #999;
-  margin-bottom: 15px;
-  letter-spacing: 2px;
-}
-
-.main-image-caption a {
-  color: #4B78D0;
-}
-
-.main-image-caption .social-media-bar {
-  margin-bottom: 65px;
-}
 
 .news h2 {
 }
