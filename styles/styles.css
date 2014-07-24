@@ -29,38 +29,7 @@ h5 {
   font-size: 11px;
 }
 
-.nav-footer {
-  background-color: #fafafa;
-  padding: 40px 50px 65px 50px;
-  text-align: left;
-  display: inline-block;
-}
 
-.nav-footer-left {
-  display: inline-block;
-  float: left;
-  width: 80%;
-}
-
-.nav-footer-right {
-  display: inline-block;
-  float: right;
-}
-
-.nav-menu-footer {
-  display: inline-block;
-}
-
-.nav-menu-footer ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.nav-menu-footer ul li {
-  display: inline;
-  margin: 0 10px;
-}
 
 /*
 @media (max-width: 1000px) {
