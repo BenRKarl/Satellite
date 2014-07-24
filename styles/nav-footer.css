@@ -1,0 +1,36 @@
+.nav-footer {
+  background-color: #fafafa;
+  padding: 40px 50px 65px 50px;
+  text-align: left;
+  display: inline-block;
+}
+
+.nav-footer-left {
+  display: inline-block;
+  float: left;
+  width: 70%;
+  font-size: 18px;
+}
+
+.nav-footer-right {
+  color: #999;
+  display: inline-block;
+  float: right;
+}
+
+.nav-menu-footer {
+  display: inline-block;
+  font-size: 24px;
+}
+
+.nav-menu-footer ul {
+  color: #666;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-menu-footer ul li {
+  display: inline;
+  margin: 0 10px;
+}

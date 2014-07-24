@@ -4,6 +4,10 @@ body {
   text-align: center;
 }
 
+hr {
+  width: 75%;
+}
+
 h1 {
   font-size: 33px;
   color: #333;
@@ -26,23 +30,6 @@ h5 {
 }
 
 
-
-.heading a {
-  color: #4B78D0;
-}
-
-.heading h5 {
-  letter-spacing: 2px;
-}
-
-
-
-.news h2 {
-}
-
-#newsletterForm {
-  display: inline;
-}
 
 /*
 @media (max-width: 1000px) {
