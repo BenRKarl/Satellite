@@ -32,6 +32,19 @@ h5 {
 .nav-footer {
   background-color: #fafafa;
   padding: 40px 50px 65px 50px;
+  text-align: left;
+  display: inline-block;
+}
+
+.nav-footer-left {
+  display: inline-block;
+  float: left;
+  width: 80%;
+}
+
+.nav-footer-right {
+  display: inline-block;
+  float: right;
 }
 
 .nav-menu-footer {
@@ -47,18 +60,6 @@ h5 {
 .nav-menu-footer ul li {
   display: inline;
   margin: 0 10px;
-}
-
-.heading a {
-  color: #4B78D0;
-}
-
-.heading h5 {
-  letter-spacing: 2px;
-}
-
-#newsletterForm {
-  display: inline;
 }
 
 /*
