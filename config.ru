@@ -1,2 +1,2 @@
-require 'my_app'
-run MyApp.new
+require 'main'
+run Sinatra::Application
