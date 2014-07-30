@@ -5,11 +5,6 @@ GEM
     sinatra (1.1.0)
       rack (~> 1.1)
       tilt (~> 1.1)
-    sinatra-advanced-routes (0.5.3)
-      sinatra (~> 1.0)
-    sinatra-reloader (0.5.0)
-      sinatra (~> 1.0)
-      sinatra-advanced-routes (~> 0.5.0)
     tilt (1.4.1)
 
 PLATFORMS
@@ -17,4 +12,3 @@ PLATFORMS
 
 DEPENDENCIES
   sinatra (= 1.1.0)
-  sinatra-reloader
