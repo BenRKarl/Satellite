@@ -1,5 +1,5 @@
-require 'sinatra'
-require 'sinatra/reloader'
+require 'bundler'
+Bundler.require
 
 get '/' do
   erb :index
