@@ -86,5 +86,28 @@
     height: 150px;
     width: 150px;
   }
+
+  /* FOOTER */
+  .nav-footer {
+    padding: 40px 5% 65px 5%;
+    text-align: center;
+  }
+
+  .nav-footer-left {
+    display: inline-block;
+    float: none;
+    width: 100%;
+    font-size: 11px;
+  }
+
+  .nav-footer-right {
+    color: #999;
+    display: inline-block;
+    float: none;
+  }
+
+  .nav-footer ul li {
+    font-size: 13px;
+  }
 }
 
