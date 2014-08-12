@@ -53,5 +53,11 @@
   .main-image-caption .social-media-bar {
     margin-bottom: 50px;
   }
+
+  /* NEWS CONTAINER */
+  .news-container {
+    padding: 50px;
+    font-size: 15px;
+  }
 }
 
