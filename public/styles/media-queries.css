@@ -59,5 +59,32 @@
     padding: 50px;
     font-size: 15px;
   }
+
+  /* CONTENT CONTAINERS */
+  .content-container {
+    padding: 50px 5%;
+  }
+
+  .content-container h1 {
+    font-size: 23px;
+  }
+
+  .content-container h3 {
+    font-size: 13px;
+  }
+
+  .content-container h5 {
+    font-size: 11px;
+    margin: 0 0 30px 0;
+  }
+
+  .content-container .img-container {
+    width: 100%;
+  }
+
+ .img-container img {
+    height: 150px;
+    width: 150px;
+  }
 }
 
