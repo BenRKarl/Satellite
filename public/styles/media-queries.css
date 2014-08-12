@@ -28,12 +28,30 @@
   }
 
   .main-image h1 {
-  letter-spacing: 3px;
-  position: absolute;
-  top: 10em;
-  width: 100%;
-  color: #fff;
-  font-size: 15px;
-}
+    letter-spacing: 3px;
+    position: absolute;
+    top: 10em;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  /* MAIN IMAGE CAPTION */
+  .main-image-caption h2 {
+    color: #333;
+    margin: 50px 5% 30px 5%;
+    font-size: 13px;
+  }
+
+  .main-image-caption h3 {
+    color: #999;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    font-size: 11px;
+  }
+
+  .main-image-caption .social-media-bar {
+    margin-bottom: 50px;
+  }
 }
 
