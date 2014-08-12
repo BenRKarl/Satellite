@@ -1,5 +1,6 @@
 @media (max-width: 767px) { /* For Phones */
 
+  /* TOP NAV BAR */
   .nav-bar {
     height: 50px;
     padding: 0 5%;
@@ -20,5 +21,19 @@
   .nav-menu ul li {
     display: inherit;
   }
+
+  /* MAIN IMAGE */
+  .main-image img {
+    height: 200px;
+  }
+
+  .main-image h1 {
+  letter-spacing: 3px;
+  position: absolute;
+  top: 10em;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+}
 }
 
