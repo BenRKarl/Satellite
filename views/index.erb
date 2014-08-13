@@ -3,7 +3,7 @@
   <meta name="viewport" content='width=device-width' />
   <title>The Satellite Project</title>
   <script>
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
   </script>
 
   <!-- Fonts -->
@@ -11,6 +11,8 @@
 
   <!-- Scripts -->
   <script type="text/javascript" src="/javascripts/libraries/jquery.js"></script>
+  <script type="text/javascript" src="/javascripts/libraries/jquery.sticky.js"></script>
+  <script type="text/javascript" src="/javascripts/scripts.js"></script>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" href="/styles/styles.css">
@@ -24,20 +26,20 @@
 </head>
 <body>
 
-  <div class="nav-bar">
-    <div class="main-logo">
-      <h1>THE SATELLITE</h1>
+    <div class="nav-bar" id="sticker">
+      <div class="main-logo">
+        <h1>THE SATELLITE</h1>
+      </div>
+      <div class="nav-menu">
+        <ul>
+          <li>Story</li>
+          <li>Team</li>
+          <li>Technology</li>
+          <li>Blog</li>
+          <li class="join-button">Join Us</li>
+        </ul>
+      </div>
     </div>
-    <div class="nav-menu">
-      <ul>
-        <li>Story</li>
-        <li>Team</li>
-        <li>Technology</li>
-        <li>Blog</li>
-        <li class="join-button">Join Us</li>
-      </ul>
-    </div>
-  </div>
 
   <div class="main-image">
     <img src="/images/hzoIL.jpg">
@@ -64,7 +66,7 @@
         "The Satellite wants to change the
         perception of Earth"
       </h2>
-        <img class="news-item-logo" src="http://tctechcrunch2011.files.wordpress.com/2011/11/techcrunch_transparent.png">
+      <img class="news-item-logo" src="http://tctechcrunch2011.files.wordpress.com/2011/11/techcrunch_transparent.png">
     </div>
 
     <div class="news-item">
@@ -72,7 +74,7 @@
         "The Satellite wants to change the
         perception of Earth"
       </h2>
-        <img class="news-item-logo" src="http://tctechcrunch2011.files.wordpress.com/2011/11/techcrunch_transparent.png">
+      <img class="news-item-logo" src="http://tctechcrunch2011.files.wordpress.com/2011/11/techcrunch_transparent.png">
     </div>
 
     <div class="news-item">
@@ -80,88 +82,88 @@
         "The Satellite wants to change the
         perception of Earth"
       </h2>
-        <img class="news-item-logo" src="http://tctechcrunch2011.files.wordpress.com/2011/11/techcrunch_transparent.png">
+      <img class="news-item-logo" src="http://tctechcrunch2011.files.wordpress.com/2011/11/techcrunch_transparent.png">
     </div>
   </div>
 
-<hr>
+  <hr>
 
-<div class="content-container">
-  <h1>Realtime Data</h1>
-  <h5>LEARN MORE</h5>
-  <h3>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada imperdiet eros blandit aliquet. Nullam facilisis, purus ut imperdiet auctor, lacus turpis elementum massa, et porttitor lectus diam in urna. Sed vel scelerisque risus.
-  </h3>
-  <div class="img-container">
-    <img src="/images/earth_sample.jpg">
-    <img src="/images/earth_sample.jpg">
-    <img src="/images/earth_sample.jpg">
-    <img src="/images/earth_sample.jpg">
-    <img src="/images/earth_sample.jpg">
-    <img src="/images/earth_sample.jpg">
-  </div>
-</div>
-
-<hr>
-
-<div class="content-container">
-  <h1>Photorealistic Visualization</h1>
-  <h5>LEARN MORE</h5>
-  <h3>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada imperdiet eros blandit aliquet. Nullam facilisis, purus ut imperdiet auctor, lacus turpis elementum massa, et porttitor lectus diam in urna. Sed vel scelerisque risus.
-  </h3>
-  <div class="img-container">
-    <img src="/images/earth_sample.jpg">
-    <img src="/images/earth_sample.jpg">
-    <img src="/images/earth_sample.jpg">
-    <img src="/images/earth_sample.jpg">
-    <img src="/images/earth_sample.jpg">
-    <img src="/images/earth_sample.jpg">
-  </div>
-</div>
-
-<div class="nav-footer">
-  <div class="nav-footer-left">
-      <div class="nav-menu-footer">
-      <ul>
-        <li>Story</li>
-        <li>Team</li>
-        <li>Technology</li>
-        <li>Blog</li>
-        <li>Join Us</li>
-        <li>Press</li>
-        <li>Contact</li>
-      </ul>
-    </div>
-
-    <p>
+  <div class="content-container">
+    <h1>Realtime Data</h1>
+    <h5>LEARN MORE</h5>
+    <h3>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada imperdiet eros blandit aliquet. Nullam facilisis, purus ut imperdiet auctor, lacus turpis elementum massa, et porttitor lectus diam in urna. Sed vel scelerisque risus.
-    </p>
-    <p>
-      &copy; WIKA LLC
-    </p>
+    </h3>
+    <div class="img-container">
+      <img src="/images/earth_sample.jpg">
+      <img src="/images/earth_sample.jpg">
+      <img src="/images/earth_sample.jpg">
+      <img src="/images/earth_sample.jpg">
+      <img src="/images/earth_sample.jpg">
+      <img src="/images/earth_sample.jpg">
+    </div>
   </div>
 
-  <div class="nav-footer-right">
-  <h5>GET THE NEWSLETTER</h5>
+  <hr>
 
-  <form id="newsletterForm">
-  <input style="display: inline; font-size: 13px; color: #999;" type="text" name="email" placeholder="email address">
-  <input style="display: inline; font-size: 13px; color: #333;" type="submit" value="Submit">
-  </form>
-
-  <h5>FOLLOW THE PROJECT</h5>
-
-  <div class="fb-like" data-href="https://www.facebook.com/thesatelliteproject" data-layout="button" data-action="like" data-show-faces="false" data-share="false">
+  <div class="content-container">
+    <h1>Photorealistic Visualization</h1>
+    <h5>LEARN MORE</h5>
+    <h3>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada imperdiet eros blandit aliquet. Nullam facilisis, purus ut imperdiet auctor, lacus turpis elementum massa, et porttitor lectus diam in urna. Sed vel scelerisque risus.
+    </h3>
+    <div class="img-container">
+      <img src="/images/earth_sample.jpg">
+      <img src="/images/earth_sample.jpg">
+      <img src="/images/earth_sample.jpg">
+      <img src="/images/earth_sample.jpg">
+      <img src="/images/earth_sample.jpg">
+      <img src="/images/earth_sample.jpg">
+    </div>
   </div>
-  <a href="https://twitter.com/satproject" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @satproject
-  </a>
 
-  <script>
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-  </script>
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <div class="nav-menu-footer">
+        <ul>
+          <li>Story</li>
+          <li>Team</li>
+          <li>Technology</li>
+          <li>Blog</li>
+          <li>Join Us</li>
+          <li>Press</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada imperdiet eros blandit aliquet. Nullam facilisis, purus ut imperdiet auctor, lacus turpis elementum massa, et porttitor lectus diam in urna. Sed vel scelerisque risus.
+      </p>
+      <p>
+        &copy; WIKA LLC
+      </p>
+    </div>
+
+    <div class="nav-footer-right">
+      <h5>GET THE NEWSLETTER</h5>
+
+      <form id="newsletterForm">
+        <input style="display: inline; font-size: 13px; color: #999;" type="text" name="email" placeholder="email address">
+        <input style="display: inline; font-size: 13px; color: #333;" type="submit" value="Submit">
+      </form>
+
+      <h5>FOLLOW THE PROJECT</h5>
+
+      <div class="fb-like" data-href="https://www.facebook.com/thesatelliteproject" data-layout="button" data-action="like" data-show-faces="false" data-share="false">
+      </div>
+      <a href="https://twitter.com/satproject" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @satproject
+      </a>
+
+      <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+      </script>
+    </div>
   </div>
-</div>
 
 </body>
 </html>
