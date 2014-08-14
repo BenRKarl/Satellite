@@ -4,22 +4,39 @@
 
 .main-image img {
   width: 100%;
-  height: 260px;
+  height: 500px;
 }
 
 .main-image h1 {
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   position: absolute;
-  top: 100px;
+  top: 250px;
   width: 100%;
   color: #fff;
-  font-size: 33px;
+  font-size: 40px;
 }
 
-.main-image-text {
-  letter-spacing: 3px;
+/*added*/
+
+.secondary-main-image img {
+  width: 100%;
+  height: 350px;
+}
+
+.secondary-main-image h1 {
+  letter-spacing: 4px;
   position: absolute;
-  top: 180px;
-  margin: 25px 200px 30px 200px;
+  top: 120px;
+  width: 100%;
   color: #fff;
+  font-size: 40px;
+}
+
+.secondary-main-image-text {
+  position: absolute;
+  top: 230px;
+  margin-left: 25%;
+  width: 50%;
+  color: #fff;
+  line-height: 28px;
 }
