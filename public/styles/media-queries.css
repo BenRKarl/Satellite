@@ -34,10 +34,28 @@
   .main-image h1 {
     letter-spacing: 3px;
     position: absolute;
-    top: 10em;
+    top: 9em;
     width: 100%;
     color: #fff;
     font-size: 15px;
+  }
+
+  .secondary-main-image h1 {
+    letter-spacing: 3px;
+    position: absolute;
+    top: 9em;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .secondary-main-image h2 {
+    letter-spacing: 2px;
+    font-size: 11px;
+    width: 84%;
+    margin-left: 8%;
+    top: 16em;
+    line-height: 15px
   }
 
   /* MAIN IMAGE CAPTION */
