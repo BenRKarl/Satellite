@@ -27,6 +27,7 @@
   /* MAIN IMAGE */
   .main-image img {
     height: 200px;
+    margin-top: 50px;
   }
 
   .main-image h1 {
