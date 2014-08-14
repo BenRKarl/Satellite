@@ -1,4 +1,4 @@
-@media (max-width: 767px) { /* For Phones */
+@media (max-width: 860px) { /* For Phones */
 
   /* TOP NAV BAR */
   .nav-bar {
@@ -8,11 +8,12 @@
 
   .main-logo {
     display: inline-block;
-    margin: 0;
+    margin: 2 0;
+    width: 85%;
   }
 
   .main-logo h1 {
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 5%;
   }
 
@@ -61,6 +62,10 @@
   .news-container {
     padding: 50px;
     font-size: 15px;
+  }
+
+  .news-item {
+    width: 100%;
   }
 
   /* CONTENT CONTAINERS */
