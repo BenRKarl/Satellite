@@ -3,24 +3,26 @@
   /* TOP NAV BAR */
   .nav-bar {
     height: 50px;
-    padding: 0 5%;
+    /*padding: 0 5%;*/
   }
 
   .main-logo {
-    left: 2em;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .main-logo h1 {
+    font-size: 24px;
+    margin-left: 5%;
   }
 
   .nav-menu {
     display: none;
   }
 
-/*  .nav-menu ul {
-    display: inherit;
+  .hamburger {
+    display: inline-block;
   }
-
-  .nav-menu ul li {
-    display: inherit;
-  }*/
 
   /* MAIN IMAGE */
   .main-image img {

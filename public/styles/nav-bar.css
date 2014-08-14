@@ -1,33 +1,42 @@
-#sticker {
+/*#sticker {
 z-index: +1;
 background-color: white;
 width: 100%;
 -webkit-box-shadow: 0px 1px 0px 0px rgba(50, 50, 50, 0.3);
 -moz-box-shadow: 0px 1px 0px 0px rgba(50, 50, 50, 0.3);
 box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.3);
-}
+}*/
 
 .nav-bar {
-  height: 75px;
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  background: white;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 0px 1px 0px 0px rgba(50, 50, 50, 0.3);
+  box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.3);
+  padding-top: 1em;
 }
 
 .nav-bar h1 {
   margin: 0;
+  text-align: left
 }
 
 .main-logo {
   display: inline-block;
+  width: 50%;
   letter-spacing: 0.5em;
-  top: 1em;
-  left: 4em;
-  position: absolute;
+  float: left;
+  margin-left: 30px;
 }
 
 .nav-menu {
   display: inline-block;
   top: 2em;
   right: 4em;
-  position: absolute;
+  float: right;
+  margin: 1em 30px 0 0;
 }
 
 .nav-menu ul {
@@ -38,7 +47,13 @@ box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.3);
 
 .nav-menu ul li {
   display: inline;
-  margin: 0 15px;
+  margin-left: 15px;
+}
+
+.hamburger {
+  display: none;
+  float: right;
+  margin-right: 5%;
 }
 
 .join-button {
