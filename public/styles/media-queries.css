@@ -60,21 +60,25 @@
 
   /* NEWS CONTAINER */
   .news-container {
-    padding: 50px;
+    padding: 0px;
     font-size: 15px;
+    width: 100%;
   }
 
   .news-item {
     width: 100%;
+    margin: 0;
   }
 
   .news-item img {
-    width: 100%;
+    width: 60%;
+    margin: 0 20%;
   }
 
   /* CONTENT CONTAINERS */
   .content-container {
-    padding: 50px 5%;
+    padding: 0;
+    width: 100%;
   }
 
   .content-container h1 {
@@ -95,12 +99,14 @@
   }
 
   .img-container {
-    max-width: 50%;
+    max-width: 90%;
+    margin: 0 auto;
   }
 
  .img-container img {
-    width: 20%;
+    width: 30%;
     height: auto;
+    margin: 0 1px;
   }
 
   /* FOOTER */
