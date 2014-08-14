@@ -68,6 +68,10 @@
     width: 100%;
   }
 
+  .news-item img {
+    width: 100%;
+  }
+
   /* CONTENT CONTAINERS */
   .content-container {
     padding: 50px 5%;
