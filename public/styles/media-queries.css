@@ -85,9 +85,13 @@
     width: 100%;
   }
 
+  .img-container {
+    max-width: 50%;
+  }
+
  .img-container img {
-    height: 150px;
-    width: 150px;
+    width: 20%;
+    height: auto;
   }
 
   /* FOOTER */
