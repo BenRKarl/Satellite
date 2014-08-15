@@ -168,5 +168,30 @@
     width: 200px;
     position: center;
   }
+
+  /* TEAM */
+
+  .team-member-container {
+    float: center;
+    vertical-align: center;
+    display: block;
+    width: 80%;
+    margin: 2em 10%;
+  }
+
+  .team-member-container img {
+    width: 80%;
+  }
+
+  .team-member-container h1 {
+    font-size: 15px;
+  }
+
+  .team-member-container h3 {
+    font-size: 13px;
+  }
+
 }
+
+
 

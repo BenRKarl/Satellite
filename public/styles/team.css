@@ -1,0 +1,10 @@
+.team-member-container {
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
+  margin: 2em 0;
+}
+
+.team-member-container img {
+  width: 70%;
+}
