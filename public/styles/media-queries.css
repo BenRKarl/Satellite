@@ -117,7 +117,7 @@
   /* FOOTER */
   .nav-footer {
     margin-top: 2em;
-    padding: 40px 5% 65px 5%;
+    padding: 15px 5% 30px 5%;
     text-align: center;
   }
 
@@ -136,6 +136,7 @@
 
   .nav-footer ul li {
     font-size: 13px;
+    margin: 0 6px;
   }
 
   /* SECONDARY PAGES */
@@ -159,7 +160,7 @@
     font-size: 11px;
     width: 84%;
     margin-left: 8%;
-    top: 11em;
+    top: 10em;
     line-height: 15px
   }
 

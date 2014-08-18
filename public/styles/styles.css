@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   color: #999;
   text-align: center;
   margin: 0;
@@ -32,4 +33,9 @@ h4 {
 
 h5 {
   font-size: 11px;
+}
+
+.bold {
+  color: RGBA(51, 51, 51, 1);
+  font-weight: 400;
 }
