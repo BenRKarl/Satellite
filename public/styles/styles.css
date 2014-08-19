@@ -39,3 +39,7 @@ h5 {
   color: RGBA(51, 51, 51, 1);
   font-weight: 400;
 }
+
+.fb-like span {
+  overflow:hidden;
+}
