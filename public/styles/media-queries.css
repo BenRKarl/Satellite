@@ -2,8 +2,39 @@
 
   /* TOP NAV BAR */
   .nav-bar {
-    height: 50px;
-    /*padding: 0 5%;*/
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .nav-menu {
+    display: none;
+    margin: 0 auto;
+    left: 0;
+    top: 52px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .nav-menu ul {
+
+  }
+
+  .nav-menu ul li {
+    padding: 5px;
+    margin: 0;
+    display: block;
+    background-color: white;
+    -webkit-box-shadow: 0px 1px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow: 0px 1px 0px rgba(50, 50, 50, 0.3);
+    box-shadow: inset 0px 1px 0px rgba(50, 50, 50, 0.3);
+  }
+
+  .join-button {
+    border: none;
+    border-radius: 0;
+    word-spacing: 1px;
+    padding: 0;
   }
 
   .main-logo {
@@ -17,12 +48,15 @@
     margin-left: 5%;
   }
 
-  .nav-menu {
-    display: none;
-  }
-
   .hamburger {
     display: inline-block;
+  }
+
+  .nav-menu-footer ul {
+    color: #666;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
   }
 
   /* MAIN IMAGE */
