@@ -1,0 +1,14 @@
+.blog-entry-box {
+  width: 60%;
+  margin: 4em auto;
+}
+
+.blog-image {
+  width: 90%;
+  margin: 2em auto;
+}
+
+.blog-entry-box hr {
+  margin: 4em auto;
+  width: 100%;
+}
