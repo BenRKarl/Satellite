@@ -12,6 +12,7 @@
   position: absolute;
   top: 210px;
   width: 100%;
+  max-width: 1000px;
   color: #fff;
   font-size: 40px;
 }

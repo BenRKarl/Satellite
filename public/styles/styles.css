@@ -1,6 +1,4 @@
-html {
-  width: 100%;
-}
+
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -8,6 +6,7 @@ body {
   color: #999;
   text-align: center;
   margin: 0;
+  /*max-width: 1000px;*/
 }
 
 hr {
@@ -42,4 +41,9 @@ h5 {
 
 .fb-like span {
   overflow:hidden;
+}
+
+.main-container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
