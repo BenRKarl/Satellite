@@ -35,10 +35,15 @@
 }
 
 .secondary-main-image h2 {
+  margin: 20px;
+}
+
+.secondary-caption {
   position: absolute;
   top: 180px;
   color: #fff;
   line-height: 28px;
-  width: 100%;
   max-width: 1000px;
 }
+
+
