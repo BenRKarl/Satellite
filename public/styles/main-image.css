@@ -31,13 +31,14 @@
   width: 100%;
   color: #fff;
   font-size: 40px;
+  max-width: 1000px;
 }
 
 .secondary-main-image h2 {
   position: absolute;
   top: 180px;
-  margin-left: 25%;
-  width: 50%;
   color: #fff;
   line-height: 28px;
+  width: 100%;
+  max-width: 1000px;
 }
