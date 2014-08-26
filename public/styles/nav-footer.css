@@ -9,7 +9,13 @@
   display: inline-block;
   float: left;
   width: 70%;
-  font-size: 18px;
+  font-size: 13px;
+}
+
+.nav-footer-left h5 {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .nav-footer-right {
@@ -37,5 +43,6 @@
 
 .nav-menu-footer ul li {
   display: inline;
-  margin: 0 10px;
+  margin-right: 10px;
+  font-size: 13px;
 }
