@@ -1,16 +1,24 @@
 .news-container {
-  padding: 65px 50px;
+  padding: 65px 0;
   display: inline-block;
 }
 
 .news-item {
   width: 300px;
   display: inline-block;
-  margin: 0 25px;
+  margin-right: 46px;
+}
+
+.news-item.right {
+  width: 300px;
+  display: inline-block;
+  margin-right: 0;
 }
 
 .news-item h2 {
   margin-bottom: 25px;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
 .news-item img {

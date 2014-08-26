@@ -5,13 +5,14 @@
 
 .main-image-caption h2 {
   color: #333;
-  margin: 65px 200px 30px 200px;
-  font-size: 17px;
+  margin: 65px 150px 30px 150px;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
 .main-image-caption h3 {
   color: #999;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
   letter-spacing: 2px;
 }
 
