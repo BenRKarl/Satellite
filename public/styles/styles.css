@@ -37,8 +37,8 @@ h5 {
   font-size: 11px;
 }
 
-.bold {
-  color: RGBA(51, 51, 51, 1);
+#bold {
+  color: #666;
   font-weight: 400;
 }
 
