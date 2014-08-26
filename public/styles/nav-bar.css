@@ -18,6 +18,7 @@
 .nav-bar h1 {
   margin: 0;
   text-align: left
+
 }
 
 .main-logo {
@@ -36,7 +37,6 @@
   margin: 20px 30px 0 0;
 }
 
-
 .nav-menu ul {
   margin: 0;
   padding: 0;
@@ -46,6 +46,7 @@
 .nav-menu ul li {
   display: inline;
   margin-left: 15px;
+  font-size: 14px;
 }
 
 .hamburger {
