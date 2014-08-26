@@ -57,7 +57,7 @@
 
 .join-button {
   border: 1px solid #999;
-  border-radius: 10%;
+  border-radius: 4px;
   word-spacing: 1px;
   padding: 7px 20px;
 }
