@@ -6,6 +6,8 @@
   font-size: 33px;
   color: #333;
   margin: 0 0 20px 0;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .content-container h3 {
@@ -22,7 +24,7 @@
 
 .content-container {
   display: inline-block;
-  width: 550px;
+  width: 650px;
 }
 
 .img-container img {
