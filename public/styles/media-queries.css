@@ -90,7 +90,6 @@
 
   iframe {
     display: inline;
-    margin-bottom: 10px;
   }
 
   /* NEWS CONTAINER */
@@ -253,16 +252,6 @@
   }
 
   /*contact*/
-
-  .contact-box {
-    background-color: #fafafa;
-    vertical-align: top;
-    display: inline-block;
-    width: 90%;
-    height: 380px;
-    margin: 2em 5%;
-    border: 1px solid RGBA(244, 244, 244, 1);
-  }
 
 }
 

@@ -1,24 +1,26 @@
 .contact-container {
-  padding: 65px 50px;
+  padding: 65px 0 0 0;
   display: inline-block;
 }
 
 .contact-div {
   height: 260px;
+  padding: 15px 0;
 }
 
 .contact-box {
   background-color: #fafafa;
   vertical-align: top;
   display: inline-block;
-  width: 25%;
-  height: 380px;
-  margin: 2em 2em;
+  width: 280px;
+  height: 400px;
+  margin: 0 15px 50px 15px;
   border: 1px solid RGBA(244, 244, 244, 1);
 }
 
 .contact-box h1 {
-  font-size: 28px
+  font-size: 25px;
+  font-weight: 300;
 }
 
 .contact-box p {
@@ -33,4 +35,6 @@
   padding: 10px 20px;
   width: 40%;
   margin: 2em auto;
+  background-color: #fff;
+  font-size: 14px;
 }

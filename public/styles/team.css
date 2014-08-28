@@ -2,9 +2,16 @@
   vertical-align: top;
   display: inline-block;
   width: 30%;
-  margin: 2em 0;
+  margin-top: 65px;
 }
 
 .team-member-container img {
-  width: 70%;
+  width: 300px;
+  height: 300px;
+  margin: 0 50px;
+}
+
+.team-member-container h1 {
+  font-size: 25px;
+  font-weight: 300;
 }
