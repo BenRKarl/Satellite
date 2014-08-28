@@ -37,6 +37,10 @@ h5 {
   font-size: 11px;
 }
 
+img {
+  max-width: 1000px;
+}
+
 #bold {
   color: #666;
   font-weight: 400;

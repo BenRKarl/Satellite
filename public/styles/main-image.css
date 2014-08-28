@@ -4,6 +4,7 @@
   background-size: cover;
   width: 100%;
   height: 500px;
+  margin-top: 65px;
 }
 
 .main-image h1 {
@@ -18,9 +19,30 @@
 
 /*added*/
 
-.secondary-main-image img {
+.secondary-main-image {
   width: 100%;
   height: 365px;
+  margin-top: 65px;
+}
+
+#story-img {
+  background: url(/images/hzoIL.jpg);
+  background-size: cover;
+}
+
+#team-img {
+  background: url(/images/hzoIL.jpg);
+  background-size: cover;
+}
+
+#technology-img {
+  background: url(/images/hzoIL.jpg);
+  background-size: cover;
+}
+
+#blog-img {
+  background: url(/images/hzoIL.jpg);
+  background-size: cover;
 }
 
 .secondary-main-image h1 {
