@@ -1,8 +1,7 @@
 .team-member-container {
   vertical-align: top;
-  display: inline-block;
   width: 300px;
-  margin: 65px 15px 0 15px;
+  margin: 4% auto;
 }
 
 .team-member-container img {

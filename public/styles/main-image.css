@@ -76,4 +76,12 @@
   max-width: 1000px;
 }
 
+.social-media-bar {
+  width: 100%;
+}
+
+.fb-container {
+  width: 93px;
+  display:inline-block;
+}
 
