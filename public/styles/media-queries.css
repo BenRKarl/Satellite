@@ -1,11 +1,6 @@
 @media (max-width: 860px) { /* For Phones */
 
   /* TOP NAV BAR */
-  .nav-bar {
-    height: 40px;
-    font-size: 12px;
-    text-align: center;
-  }
 
   .nav-menu {
     display: none;
@@ -34,18 +29,18 @@
   }
 
   .main-logo {
-    display: inline-block;
-    margin: 2 0;
-    width: 85%;
+    width: 250px;
+    margin-left: 15px;
   }
 
   .main-logo h1 {
     font-size: 20px;
-    margin-left: 5%;
+    margin: 5px 5px 0 0;
   }
 
   .hamburger {
     display: inline-block;
+    margin-top: 12px;
   }
 
   .nav-menu-footer ul {
@@ -217,20 +212,9 @@
 
   /* TEAM */
 
-  .team-member-container {
-    float: center;
-    vertical-align: center;
-    display: block;
-    width: 80%;
-    margin: 2em 10%;
-  }
-
-  .team-member-container img {
-    width: 80%;
-  }
-
   .team-member-container h1 {
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: 300;
   }
 
   .team-member-container h3 {
