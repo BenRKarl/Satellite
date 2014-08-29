@@ -12,7 +12,8 @@
 
 .content-container h3 {
   font-size: 15px;
-  color: #999;
+  color: #666;
+  font-weight: 300;
   margin: 0 0 50px 0;
 }
 

@@ -56,12 +56,16 @@
   top: 130px;
   width: 100%;
   color: #fff;
-  font-size: 40px;
+  font-size: 33px;
   max-width: 1000px;
+  font-weight: 300;
 }
 
 .secondary-main-image h2 {
   margin: 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 
 .secondary-caption {
